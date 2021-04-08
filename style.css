@@ -1,0 +1,195 @@
+body{
+    background-color: gray
+}
+
+.card{
+width: 80%;
+background-color: white;
+margin: 0 auto;
+border-radius: 10px ;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Segoe UI';
+    padding-top: 20px;
+    font-weight:900;
+}
+
+.name{
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 75%;
+    box-shadow:1px 2px 1px 1px lightgray;
+    margin-bottom: 20px;
+    margin-left:135px ;
+    
+     
+}
+.inputname{
+    border: none;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    width: 94.5%;
+    
+}
+.inputname::placeholder{
+    font-size: 20px;
+    color: lightgrey;
+      
+}
+.inputname:focus{
+    outline: none;
+}
+
+.namehead{
+    padding-top: 40px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+
+.email{
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 35%;
+    margin-left:135px;
+    
+    box-shadow:1px 2px 1px 1px lightgray;
+    float: left;
+    
+    
+    
+}
+.inputmail{
+    border: none;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    width: 85%;
+    
+}
+.mailhead{
+    padding-top: 40px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+.inputmail::placeholder{
+    font-size: 20px;
+    color: lightgrey;
+    font-family: 'Segoe UI';
+}
+.inputmail:focus{
+    outline: none;
+}
+.phone{
+   
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 37%;
+    box-shadow:1px 2px 1px 1px lightgray;
+    display: inline-block;
+    margin-left: 30px;
+    
+     
+    
+}
+.inputphone{
+    border: transparent;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    width: 85%;
+    
+}
+.phonehead{
+    padding-top: 40px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+.inputphone::placeholder{
+    font-size: 20px;
+    color: lightgrey;
+    font-family: 'Segoe UI';
+}
+.inputphone:focus{
+    outline: none;
+}
+.services{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 75%;;
+    box-shadow:1px 2px 1px 1px lightgray;
+    margin-left: 135px ; 
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+.select{
+    border: none;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    width: 94.5%;
+}
+.select:focus{
+    outline: none;
+}
+.label{
+    padding-top: 40px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+
+.message{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 75%;
+    box-shadow:1px 2px 1px 1px lightgray;
+    margin-left: 135px ; 
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+.messbox{
+    border: none;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    width: 94.5%;
+   
+}
+.messbox:focus{
+    outline: none;
+}
+.messbox::placeholder{
+    font-size: 20px;
+    color: lightgrey;
+    font-family: 'Segoe UI';
+}
+.messhead{
+    padding-top: 40px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+.divbutton{
+margin: 0 auto;
+ width: 75%;
+ padding-left: 200px;
+ padding-bottom: 50px;
+ padding-top: 50px ;
+  
+}
+.button{
+  
+   background-color: black;
+   border-radius: 40px;
+   width: 75%;
+   color: white;
+   padding: 5px 5px;
+   
+   
+}
+.button:focus{
+    outline: none;
+}
